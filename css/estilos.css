@@ -1,0 +1,516 @@
+
+
+body {
+  padding-top: 3rem;
+  padding-bottom:0;
+  color: #5a5a5a;
+}
+
+       
+
+.admision{
+    background-color: red;
+}
+
+.carousel {
+  margin-bottom: 4rem;
+}
+
+.carousel-caption {
+  bottom: 3rem;
+  z-index: 10;
+}
+
+
+.carousel-item {
+  height: 32rem;
+}
+.carousel-item > img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  height: 32rem;
+}
+
+
+
+.marketing .col-lg-4 {
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+.marketing h2 {
+  font-weight: 400;
+}
+
+.marketing .col-lg-4 p {
+  margin-right: .75rem;
+  margin-left: .75rem;
+}
+
+
+.featurette-divider {
+  margin: 5rem 0; 
+}
+
+.featurette-heading {
+  font-weight: 300;
+  line-height: 1;
+  
+  letter-spacing: -.05rem;
+}
+
+
+
+
+@media (min-width: 40em) {
+ 
+  .carousel-caption p {
+    margin-bottom: 1.25rem;
+    font-size: 1.25rem;
+    line-height: 1.4;
+  }
+
+  .featurette-heading {
+    font-size: 50px;
+  }
+}
+
+@media (min-width: 62em) {
+  .featurette-heading {
+    margin-top: 7rem;
+  }
+}
+
+
+.contenedor p{
+  text-align: center;
+  font-size: 55px;
+  color: white;
+  position: absolute;
+  top: 40%;
+  width: 100%;
+  justify-content: center;
+  background: rgba(196, 69, 54, 0.8);
+  padding-top: 10PX;
+  padding-bottom: 10px;
+  padding-left: 40px;
+  padding-right: 40px;
+  
+}
+
+.contenedor a{
+  text-align: center;
+  display: block;
+  color: white;
+  position: absolute;
+  top: 80%;
+  justify-content: center;
+  align-items: center;
+  margin-left: 47%;
+  font-size: 18px;
+  
+
+
+}
+
+
+
+.redondearimg{
+  border-radius: 50%;
+}
+
+h2{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  text-align: center;
+}
+
+
+span{
+  color: #e63946;
+}
+
+
+.regiones{
+  background: #e63946;
+
+}
+
+.regionesb{
+  background: #ffffff;
+}
+
+.blanco{
+  color: #ffffff;
+}
+
+.borde1{
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+
+}
+.borde2{
+
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+
+}
+
+.colorh2{
+  color: #fca311;
+}
+
+.footer {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  background-color: #2c3e50;
+  color: #fff;
+  margin-bottom: 0;
+}
+
+a{
+  color: aquamarine;
+  text-decoration: none;
+}
+
+
+
+#pelicula img{
+  transition: all 300ms;
+  position: relative;
+
+}
+
+#pelicula img:hover{
+  transform: scale(1.15);
+}
+
+.box{
+  overflow: hidden;
+  text-align: center;
+  position: relative;
+}
+
+.box img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.box .hover{
+  width: 0%;
+  height: 100%;
+  background-color: rgba(56, 53, 53, 0.568);
+  position: absolute;
+  top: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  transition: .4s all;
+
+}
+
+.hover h1{
+  width: 100%;
+  font-size: 1.5em;
+  margin-bottom: 5%;
+
+  text-align: center;
+  color: aliceblue;
+  text-transform: uppercase;
+}
+
+.box:hover .hover{
+width: 100%;
+}
+
+.piep:hover{
+  color: #faa916;
+}
+
+main#admi .container h3 {
+    text-align: center;
+}
+
+main#contacto .logo {
+    padding: 1rem;
+    background-color: lightsteelblue;
+    border-radius: 0.25rem;
+    overflow: hidden;
+    text-align: center;
+    font-weight: bold;
+}
+
+    main#contacto .logo .imagen {
+        margin: 0.5rem 0;
+    }
+
+main .logo .imagen img {
+    background-color: #181818;
+    width: 100%;
+    width: 600px;
+    height: 200px;
+}
+
+main .logo .descripcion {
+    margin-bottom: 1rem;
+}
+
+main .contenido {
+    padding: 1rem;
+    border-radius: 0.25rem;
+    text-align: center;
+    font-weight: bold;
+}
+
+.contenido h4{
+    color:black;
+}
+
+    main .contenido .contacto {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+        main .contenido .contacto .item {
+            flex: 1;
+            text-align: center;
+            margin: 0 1rem;
+            border-radius: 0.5rem
+        }
+
+            main .contenido .contacto .item.facebook {
+                background-color: mediumpurple;
+                color: black;
+                font-weight: bold;
+            }
+
+        main .contenido .contacto .imagen {
+            width: 10px;
+            height: 10px;
+        }
+
+        main .contenido .contacto .item.twitter {
+            background-color: lightblue;
+            color: black;
+            font-weight: bold;
+        }
+
+        main .contenido .contacto .item.watsApp {
+            background-color: lightseagreen;
+            color: black;
+            font-weight: bold;
+        }
+
+    main .contenido .sugerencia {
+        max-width: 500px;
+        margin: 2rem auto;
+        border-radius: 0.5rem;
+        background-color: #f1f1f1;
+        padding: 1rem;
+    }
+
+        main .contenido .sugerencia .f-grupo textarea {
+            padding: 0.5rem 1rem;
+            width: 100%;
+            margin: 0.5rem 0;
+            border-radius: 0.25rem;
+            box-sizing: border-box;
+            border: 1px solid #cfcfcf;
+        }
+
+main#admi {
+    padding: 1rem;
+    /*background-color: lightsteelblue;*/
+    border-radius: 0.25rem;
+    overflow: hidden;
+    font-weight: bold;
+}
+
+    main#admi .container h3 {
+        color: midnightblue;
+        font-family: 'Times New Roman'
+    }
+
+
+.cont {
+    margin-left: auto;
+    margin-right: auto;
+    padding: 5px;
+    height:1000px;
+}
+
+section#mision {
+    width: 700px;
+    float: left; /*ubicación a la izquierda*/
+    height: 650px;
+    margin-left: 15px;
+    margin-bottom: 15px;
+    text-align:justify;
+}
+
+
+aside#inici {
+    /*border: 1px solid #903;*/
+    margin-right: 15px;
+    width: 300px;
+    float: right; /*ubicación a la derecha*/
+    height: 650px;
+    margin-bottom: 15px;
+}
+
+aside img {
+    width: 100%;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    height:100%;
+}
+
+.figuraQS {
+    margin: 20px 20px 20px -50px;
+}
+
+aside img {
+    width: 100%;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+.figura {
+    margin: -200px 60px 20px -300px;
+}
+
+button#bqs {
+    width: 204px;
+    height: 34px;
+    margin-top: 10px;
+    margin-left: -100px;
+    background-color: aqua;
+    height:80px;
+}
+
+#contenedor {
+    margin-left: auto;
+    margin-right: auto;
+    width: 900px;
+    padding: 5px;
+    /*height: 920px;*/
+}
+
+#Q{
+    text-align:center;
+    background-color:orange;
+}
+
+#docente div article figure img{
+    border-radius:50%;
+}
+
+article {
+    width: 25%;
+    display: inline-block;
+    margin: 15px 30px;
+    padding: 5px;
+}
+
+    article h1 {
+        text-align: center;
+    }
+
+    article figure {
+        text-align: center;
+    }
+
+    article p {
+        text-align: justify;
+    }
+
+.imgCurso {
+    width: 100%;
+    height: 200px;
+}
+
+.carousel-inner div div h3 {
+    color: hotpink;
+}
+
+#docente h1 {
+    background-color: aqua;
+    text-align: center;
+}
+
+#docente h6 {
+    text-align: center;
+    color:red;
+}
+
+#docente h1 div {
+    background-color: aqua;
+}
+
+#bt {
+    width: 150px;
+    height: 10px;
+    margin-top: 10px;
+    margin-left: -100px;
+    background-color:chartreuse;
+    height: 80px;
+    float:right;
+}
+
+#btnc {
+    font-size: larger;
+    font-weight: bold;
+    margin: 0px 30px 0px 30px;
+}
+
+#trj {
+    background: linear-gradient(to bottom, #1e6091, #168aad);
+    margin: 0px 30px -60px 30px;
+}
+
+#imgtitu {
+    width: 40px;
+}
+
+#imgcard {
+    display: block;
+    margin: auto;
+    width: 200px;
+    border-radius: 10px;
+
+}
+
+    #imgcard:hover {
+        transform: scaleX(-1);
+    }
+
+button {
+    margin-right: 30px;
+}
+
+.juegos {
+    display: flex;
+    justify-content: center;
+}
+
+.carta {
+    margin-left: 80px;
+
+}
+
+.descarga {
+    float: right;
+    background: #fff;
+}
+
+.especificaciones {
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+.progress {
+    margin-bottom: 5px;
+}
